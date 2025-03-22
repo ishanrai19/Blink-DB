@@ -1,0 +1,16 @@
+======== BLINK DB BENCHMARK RESULTS ========
+Benchmark file: balanced_large.txt
+Total operations: 100100
+Total time: 355.09 ms
+Operations per second: 281897.17 ops/sec
+
+Operation breakdown:
+SET: 40049 operations (40.0%)
+GET: 39903 operations (39.9%)
+DEL: 20148 operations (20.1%)
+
+Latency statistics (ms):
+                    Avg     P95
+SET:             0.004    0.004
+GET:             0.003    0.005
+DEL:             0.003    0.005
